@@ -1,0 +1,91 @@
+{
+  "project": "CareFlow AI — Hospital Operations Agent",
+  "scope": "Fictional hackathon demonstration; not a real hospital record system.",
+  "demoHospital": {
+    "name": "CareFlow General Hospital (demo)",
+    "opdHours": "Monday–Saturday, 9:00 AM–5:00 PM (sample only; verify with the real facility)",
+    "departments": [
+      {
+        "name": "Cardiology",
+        "doctor": "Dr. Meera Nair",
+        "sampleSlots": [
+          "09:30 AM",
+          "10:30 AM",
+          "02:00 PM"
+        ]
+      },
+      {
+        "name": "Dermatology",
+        "doctor": "Dr. Rohan Shah",
+        "sampleSlots": [
+          "10:00 AM",
+          "11:00 AM",
+          "03:30 PM"
+        ]
+      },
+      {
+        "name": "Orthopedics",
+        "doctor": "Dr. Neha Joshi",
+        "sampleSlots": [
+          "09:00 AM",
+          "02:00 PM",
+          "04:00 PM"
+        ]
+      },
+      {
+        "name": "General Medicine",
+        "doctor": "Dr. Arjun Rao",
+        "sampleSlots": [
+          "09:00 AM",
+          "12:00 PM",
+          "04:30 PM"
+        ]
+      },
+      {
+        "name": "Pediatrics",
+        "doctor": "Dr. Sana Khan",
+        "sampleSlots": [
+          "10:00 AM",
+          "01:30 PM",
+          "03:00 PM"
+        ]
+      }
+    ],
+    "policies": [
+      "Bring appointment confirmation and documents requested by hospital staff.",
+      "Appointments displayed in this prototype are demo bookings only.",
+      "The assistant cannot diagnose, interpret medical results, recommend treatment, or prescribe medication.",
+      "For a medical emergency, contact local emergency services or go to the nearest emergency department immediately.",
+      "Do not enter real patient information in this demo."
+    ]
+  },
+  "indoreDirectoryReferences": [
+    {
+      "name": "HCG Cancer Centre",
+      "area": "Phadnis Colony / near LIG Square (verify)",
+      "url": "https://www.hcghospitals.com/our-centres/hcg-cancer-hospital-indore"
+    },
+    {
+      "name": "Apollo Cancer Centre",
+      "area": "Vijay Nagar / Scheme No. 74 C (verify)",
+      "url": "https://www.apollohospitals.com/cancer-treatment-centres/cancer-hospital/indore/"
+    },
+    {
+      "name": "CARE CHL / IOCI",
+      "area": "Scheme 114 (verify)",
+      "url": "https://www.carehospitals.com/indore/speciality/cancer-hospital-in-indore"
+    },
+    {
+      "name": "Kokilaben Dhirubhai Ambani Hospital",
+      "area": "Indore (verify)",
+      "url": "https://indore.kokilabenhospital.com/departments/centresofexcellence/cancer.html"
+    }
+  ],
+  "responseRules": [
+    "Answer in the requested language: English or Hindi.",
+    "Be specific, conversational, and avoid repeating the same generic introduction.",
+    "Use only the knowledge base for hospital-specific factual claims; if unknown, say so and suggest verifying with hospital staff.",
+    "Never claim an appointment, ticket, notification, or callback was created by the AI unless the application confirms it.",
+    "Do not diagnose, triage, prescribe, or make treatment decisions."
+  ]
+}
